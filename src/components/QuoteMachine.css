@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Zen+Antique&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+body {
+  background-image: url("https://images7.alphacoders.com/314/314290.jpg");
+/*    background-image: url('https://wallpaperforu.com/wp-content/uploads/2020/08/minimal-wallpaper-20081414161612-scaled.jpg'); */
+  /*   background-image: url("https://www.whatspaper.com/wp-content/uploads/2021/07/whatspaper-225.jpg"); */
+/*   background-image: url("https://media.gettyimages.com/photos/overhead-shot-of-stationery-on-wood-desk-with-paper-notepad-and-frame-picture-id1155627942?b=1&k=20&m=1155627942&s=170667a&w=0&h=Ivy10teLHqVNMmGnHfogdycbEtubZHlthqXTJnfx7rQ="); */
+  background-size:cover;
+/*   background-size:contain; */
+  background-repeat: no-repeat;
+}
+.wrapper {
+  display:flex;
+  height: 100vh;
+} 
+
+#quote-box {
+  position: relative;
+  margin:auto;
+  width: 100%;
+  max-width:550px;
+  background-color: white; 
+  padding: 40px 50px;
+  color: black;
+  opacity: 0.8;
+  font-weight: 400;
+  border: 10px solid rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+#quote-text > p {
+  text-align:center;
+/*   height: auto;
+  width: 100%; */
+  margin-left: 3px;
+  font-weight:400;
+  font-size:2rem;
+  font-family: 'Zen Antique', serif;
+}
+
+#quote-text > i {
+  position: absolute;
+  top: 45px;
+  left:30px;
+  font-size:1.5rem;
+}
+#quote-author {
+  text-align: center;
+}
+#quote-author > h1 {
+  font-size: 1.5rem;
+  
+  font-family: 'Dancing Script', cursive;
+}
+
+
+.buttons {
+  display:block;
+  border:none;
+  outline: none; 
+  margin-top: 20px;
+/*  background-color: green; */
+  height: 40px;
+}
+.btn {
+  height: 35px;
+  color: #fff;
+  background-color: #333;
+  align-items: center;
+  opacity: 1;
+/*   padding-bottom: 20px; */
+}
+.btn:hover {
+   
+ /* color: gr; */
+}
+#tweet-quote ,
+#facebook-quote {
+  float: left;
+  outline: none;
+/*   padding: 10px; */
+  margin-right:8px;
+  text-align: center;
+  opacity: 1;
+}
+
+#new-quote {
+   float : right;
+}
+
+.footer { 
+  margin:auto;
+  width: 100px;
+  height: 20px;
+  font-size: 1.2rem;
+  font-weight:500;
+  font-family: 'Lobster', cursive;
+}
+.footer > a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
