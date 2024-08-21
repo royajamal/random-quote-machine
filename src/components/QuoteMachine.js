@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './QuoteMachine.css'; 
 
+
 const url = 'https://gist.githubusercontent.com/camperbot/5a022b72e96c4c9585c32bf6a75f62d9/raw/e3c6895ce42069f0ee7e991229064f167fe8ccdc/quotes.json';
 
 class App extends React.Component{
@@ -61,7 +62,7 @@ class App extends React.Component{
              <a id="facebook-quote" className="btn"><i className="fab fa-facebook"></i></a>
              <button onClick={this.getRandomQuote} id="new-quote" className="btn">New Quote</button>
         </div>
-          <div className="footer">by<a target="_blank" href={codepenlink}> Roya </a></div>
+          <div className="footer">by<a target="_blank" href={codepenlink}> azumah </a></div>
         </div> 
      
     </div>
