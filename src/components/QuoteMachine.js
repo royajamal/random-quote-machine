@@ -45,7 +45,8 @@ class App extends React.Component {
           </div>
           <div id="quote-author">
             <h1 id="author">
-              - {currentAuthor}
+              - 
+              {currentAuthor}
             </h1>
           </div>
           <div className="buttons">
@@ -58,15 +59,20 @@ class App extends React.Component {
             >
               <i className="fab fa-twitter" />
             </a>
-            <button type="button" id="facebook-quote" className="btn">
+            <button type="button" id="facebook-quote" className="btn" aria-label="Share on Facebook">
               <i className="fab fa-facebook" />
             </button>
-            <button onClick={this.getRandomQuote} id="new-quote" className="btn">
+            <button type="button" onClick={this.getRandomQuote} id="new-quote" className="btn" aria-label="Get a new quote">
               New Quote
             </button>
           </div>
           <div className="footer">
-            by <a target="_blank" rel="noreferrer" href={codepenlink}>
+            by 
+            <a 
+              target="_blank" 
+              rel="noreferrer" 
+              href={codepenlink}
+            >
               Roya
             </a>
           </div>
