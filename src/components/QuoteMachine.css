@@ -16,7 +16,7 @@ body {
 .wrapper {
   display: flex;
   height: 100vh;
-} 
+}
 
 #quote-box {
   position: relative;
@@ -79,7 +79,7 @@ body {
   float : right;
 }
 
-.footer { 
+.footer {
   margin: auto;
   width: 100px;
   height: 20px;
@@ -87,6 +87,7 @@ body {
   font-weight: 500;
   font-family: 'Lobster', cursive;
 }
+
 .footer > a {
   text-decoration: none;
   cursor: pointer;
