@@ -50,8 +50,7 @@ body {
 #quote-author {
   text-align: center;
 }
-#quote-author 
-h1 {
+#quote-author > h1 {
   font-size: 1.5rem;
   font-family: 'Dancing Script', cursive;
 }
