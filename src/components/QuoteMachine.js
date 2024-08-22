@@ -40,7 +40,7 @@ class App extends React.Component {
       <div className="wrapper">
         <div id="quote-box">
           <div id="quote-text">
-            <i className="fa fa-quote-left"></i>
+            <i className="fa fa-quote-left" />
             <p id="text">{currentquote}</p>
           </div>
           <div id="quote-author">
@@ -66,7 +66,9 @@ class App extends React.Component {
             </button>
           </div>
           <div className="footer">
-            by <a target="_blank" rel="noreferrer" href={codepenlink}>Roya</a>
+            by <a target="_blank" rel="noreferrer" href={codepenlink}>
+              Roya
+            </a>
           </div>
         </div>
       </div>
