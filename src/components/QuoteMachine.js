@@ -1,5 +1,5 @@
 import React from 'react';
-import './QuoteMachine.css'; 
+import './QuoteMachine.css';
 
 const url = 'https://gist.githubusercontent.com/camperbot/5a022b72e96c4c9585c32bf6a75f62d9/raw/e3c6895ce42069f0ee7e991229064f167fe8ccdc/quotes.json';
 
@@ -44,10 +44,7 @@ class App extends React.Component {
             <p id="text">{currentquote}</p>
           </div>
           <div id="quote-author">
-            <h1 id="author">
-              - 
-              {currentAuthor}
-            </h1>
+            <h1 id="author">{currentAuthor}</h1>
           </div>
           <div className="buttons">
             <a
@@ -67,12 +64,8 @@ class App extends React.Component {
             </button>
           </div>
           <div className="footer">
-            by 
-            <a 
-              target="_blank" 
-              rel="noreferrer" 
-              href={codepenlink}
-            >
+            by{' '}
+            <a target="_blank" rel="noreferrer" href={codepenlink}>
               Roya
             </a>
           </div>
@@ -83,4 +76,3 @@ class App extends React.Component {
 }
 
 export default App;
-
