@@ -9,15 +9,7 @@
 
 body {
   background-image: url("https://images7.alphacoders.com/314/314290.jpg");
-  /*    background-image: url('https://wallpaperforu.com/wp-content/uploads/2020/08/minimal-wallpaper-20081414161612-scaled.jpg'); */
-
-  /*   background-image: url("https://www.whatspaper.com/wp-content/uploads/2021/07/whatspaper-225.jpg"); */
-
-  /*   background-image: url("https://media.gettyimages.com/photos/overhead-shot-of-stationery-on-wood-desk-with-paper-notepad-and-frame-picture-id1155627942?b=1&k=20&m=1155627942&s=170667a&w=0&h=Ivy10teLHqVNMmGnHfogdycbEtubZHlthqXTJnfx7rQ="); */
-
   background-size: cover;
-  /*   background-size:contain; */
-
   background-repeat: no-repeat;
 }
 
@@ -42,9 +34,6 @@ body {
 
 #quote-text > p {
   text-align: center;
-  /*   height: auto;
-  width: 100%; */
-
   margin-left: 3px;
   font-weight: 400;
   font-size: 2rem;
@@ -71,8 +60,6 @@ body {
   border: none;
   outline: none; 
   margin-top: 20px;
-  /*  background-color: green; */
-
   height: 40px;
 }
 
@@ -82,13 +69,10 @@ body {
   background-color: #333;
   align-items: center;
   opacity: 1;
-  /*   padding-bottom: 20px; */
-
 }
 
 .btn:hover {
-  /* color: gr; */
-
+ color: gray;
 }
 
 #new-quote {
@@ -108,7 +92,6 @@ body {
   cursor: pointer;
   color: black;
 }
-  /* Responsive */
 
 @media (max-width: 480px) {
   #quote-box {
