@@ -31,7 +31,9 @@ body {
   border: 10px solid rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 }
+
 #quote-text p {
+
   text-align: center;
   margin-left: 3px;
   font-weight: 400;
