@@ -22,13 +22,13 @@ body {
   position: relative;
   margin: auto;
   width: 100%;
-  max-width:550px;
+  max-width: 550px;
   background-color: white; 
   padding: 40px 50px;
   color: black;
   opacity: 0.8;
   font-weight: 400;
-  border: 10px solid rgba(0,0,0,0.1);
+  border: 10px solid rgba(0 ,0 ,0 ,0.1);
   border-radius: 10px;
 }
 
@@ -58,7 +58,7 @@ body {
 .buttons {
   display: block;
   border: none;
-  outline: none; 
+  outline: none;
   margin-top: 20px;
   height: 40px;
 }
@@ -72,11 +72,11 @@ body {
 }
 
 .btn:hover {
- color: gray;
+  color: gray;
 }
 
 #new-quote {
-  float : right;
+  float: right;
 }
 
 .footer {
