@@ -95,3 +95,31 @@ body {
   cursor: pointer;
   color: black;
 }
+/* Responsive */
+@media (max-width: 480px) {
+  #quote-box {
+    padding: 20px 30px;
+  }
+
+  #quote-text > p {
+    font-size: 1.6rem;
+  }
+
+  #quote-text > i {
+    top: 35px;
+    left: 15px;
+    font-size: 1.2rem;
+  }
+
+  #quote-author > h1 {
+    font-size: 1.2rem;
+  }
+
+  .btn {
+    font-size: 0.8rem;
+  }
+
+  .footer {
+    font-size: 0.9rem;
+  }
+}

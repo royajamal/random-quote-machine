@@ -58,6 +58,8 @@ class App extends React.Component{
              <h1 id="author">- {currentAuthor}</h1>
           </div>
            <div className="buttons">
+           <a id="tweet-quote" className='btn' target="_blank" href={tweetUrl}><i className="fab fa-twitter"></i></a>
+           <a id="facebook-quote" className="btn"><i className="fab fa-facebook"></i></a>
              <button onClick={this.getRandomQuote} id="new-quote" className="btn">New Quote</button>
         </div>
           <div className="footer">by<a target="_blank" href={codepenlink}> Roya </a></div>
