@@ -75,17 +75,7 @@ body {
 /*   padding-bottom: 20px; */
 }
 .btn:hover {
-   
- /* color: gr; */
-}
-#tweet-quote ,
-#facebook-quote {
-  float: left;
-  outline: none;
-/*   padding: 10px; */
-  margin-right:8px;
-  text-align: center;
-  opacity: 1;
+   /* color: gr; */
 }
 
 #new-quote {
