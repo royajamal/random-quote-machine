@@ -21,8 +21,8 @@ class App extends React.Component {
       .then((response) => response.json())
       .then((response) => {
         const quoteLength = response.quotes.length;
-        let randomIndex = Math.floor(Math.random() * quoteLength);
-        let quote = response.quotes[randomIndex];
+        const randomIndex = Math.floor(Math.random() * quoteLength);
+        const quote = response.quotes[randomIndex];
 
         this.setState({
           currentquote: quote.quote,
@@ -33,7 +33,7 @@ class App extends React.Component {
 
   render() {
     const { currentquote, currentAuthor } = this.state;
-    const tweetUrl = `https://twitter.com/intent/tweet?text=?${currentquote}-${currentAuthor}`;
+    const tweetUrl = `https://twitter.com/intent/tweet?text=${currentquote} - ${currentAuthor}`;
     const codepenlink = 'https://codepen.io/your-work';
 
     return (
@@ -44,7 +44,9 @@ class App extends React.Component {
             <p id="text">{currentquote}</p>
           </div>
           <div id="quote-author">
-            <h1 id="author">- {currentAuthor}</h1>
+            <h1 id="author">
+              - {currentAuthor}
+            </h1>
           </div>
           <div className="buttons">
             <a
@@ -54,11 +56,11 @@ class App extends React.Component {
               rel="noreferrer"
               href={tweetUrl}
             >
-              <i className="fab fa-twitter"></i>
+              <i className="fab fa-twitter" />
             </a>
-            <a id="facebook-quote" className="btn">
-              <i className="fab fa-facebook"></i>
-            </a>
+            <button type="button" id="facebook-quote" className="btn">
+              <i className="fab fa-facebook" />
+            </button>
             <button onClick={this.getRandomQuote} id="new-quote" className="btn">
               New Quote
             </button>
