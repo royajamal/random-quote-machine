@@ -47,14 +47,8 @@ class App extends React.Component {
             <h1 id="author">{currentAuthor}</h1>
           </div>
           <div className="buttons">
-            <a
-              id="tweet-quote"
-              className="btn"
-              target="_blank"
-              rel="noreferrer"
-              href={tweetUrl}
-            >
-              <i className="fab fa-twitter" />
+            <a id="tweet-quote" className="btn" target="_blank" rel="noreferrer" href={tweetUrl}>
+            <i className="fab fa-twitter" />
             </a>
             <button type="button" id="facebook-quote" className="btn" aria-label="Share on Facebook" title="Share on Facebook">
               <i className="fab fa-facebook" />
