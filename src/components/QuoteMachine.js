@@ -55,7 +55,7 @@ class App extends React.Component {
               href={tweetUrl}
               aria-label="Tweet this quote"
             >
-  <i className="fab fa-twitter" />
+              <i className="fab fa-twitter" />
             </a>
             <button type="button" id="facebook-quote" className="btn" aria-label="Share on Facebook" title="Share on Facebook">
               <i className="fab fa-facebook" />
