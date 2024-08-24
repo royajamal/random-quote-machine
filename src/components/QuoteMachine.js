@@ -56,7 +56,7 @@ class App extends React.Component {
             >
               <i className="fab fa-twitter" />
             </a>
-            <button type="button" id="facebook-quote" className="btn" aria-label="Share on Facebook">
+            <button type="button" id="facebook-quote" className="btn" aria-label="Share on Facebook" title="Share on Facebook">
               <i className="fab fa-facebook" />
             </button>
             <button type="button" onClick={this.getRandomQuote} id="new-quote" className="btn" aria-label="Get a new quote">
@@ -64,7 +64,8 @@ class App extends React.Component {
             </button>
           </div>
           <div className="footer">
-            by{' '}
+            by
+            {' '}
             <a target="_blank" rel="noreferrer" href={codepenlink}>
               Roya
             </a>
