@@ -48,15 +48,15 @@ class App extends React.Component {
           </div>
           <div className="buttons">
             <a
-            id="tweet-quote"
-            className="btn"
-            target="_blank"
-            rel="noreferrer"
-            href={tweetUrl}
-            aria-label="Tweet this quote"
+              id="tweet-quote"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+              href={tweetUrl}
+              aria-label="Tweet this quote"
             >
   <i className="fab fa-twitter" />
-          </a>
+            </a>
             <button type="button" id="facebook-quote" className="btn" aria-label="Share on Facebook" title="Share on Facebook">
               <i className="fab fa-facebook" />
             </button>
