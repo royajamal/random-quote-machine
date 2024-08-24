@@ -9,7 +9,7 @@ class App extends React.Component {
       currentquote: '',
       currentAuthor: '',
     };
-  
+
   }
   componentDidMount() {
     this.getRandomQuote();
@@ -74,6 +74,5 @@ class App extends React.Component {
     );
   }
 }
-
 
 export default App;
