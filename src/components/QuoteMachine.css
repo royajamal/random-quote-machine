@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Zen+Antique&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://images7.alphacoders.com/314/314290.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  display: flex;
+  height: 100vh;
+}
+
+#quote-box {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  max-width: 550px;
+  background-color: white;
+  padding: 40px 50px;
+  color: black;
+  opacity: 0.8;
+  font-weight: 400;
+  border: 10px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+#quote-text p {
+  text-align: center;
+  margin-left: 3px;
+  font-weight: 400;
+  font-size: 2rem;
+  font-family: 'Zen Antique', serif;
+}
+
+#quote-text > i {
+  position: absolute;
+  top: 45px;
+  left: 30px;
+  font-size: 1.5rem;
+}
+
+#quote-author {
+  text-align: center;
+}
+
+#quote-author h1 {
+  font-size: 1.5rem;
+  font-family: 'Dancing Script', cursive;
+}
+
+.buttons {
+  display: block;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  height: 40px;
+}
+
+.btn:hover {
+  color: gray;
+}
+
+#new-quote {
+  float: right;
+}
+
+.footer {
+  margin: auto;
+  width: 100px;
+  height: 20px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: 'Lobster', cursive;
+}
+
+.footer > a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+@media (max-width: 480px) {
+  #quote-box {
+    padding: 20px 30px;
+  }
+
+  #quote-text > p {
+    font-size: 1.6rem;
+  }
+
+  #quote-text > i {
+    top: 35px;
+    left: 15px;
+    font-size: 1.2rem;
+  }
+
+  #quote-author > h1 {
+    font-size: 1.2rem;
+  }
+
+  .btn {
+    font-size: 0.8rem;
+  }
+
+  .footer {
+    font-size: 0.9rem;
+  }
+}

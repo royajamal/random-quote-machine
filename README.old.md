@@ -5,7 +5,7 @@
 This is a simple React application that displays inspirational quotes. Each time you click the "New Quote" button, a random quote will be fetched from the type. fit API and displayed on the screen.
 
 ## Live Demo 🎥
-https://random-quote-machine-gqwnr7xdi-royajamals-projects.vercel.app/
+
 
 ## Demo 📸
 ![screenshot](public/Images/Screenshot%203.png)
@@ -20,13 +20,21 @@ https://random-quote-machine-gqwnr7xdi-royajamals-projects.vercel.app/
 o run this project locally, follow these steps:
 
 - Clone the repository:
-bash Copy code git clone https://github.com/your-username/random-quote-machine.git
+bash
+Copy code
+git clone https://github.com/your-username/random-quote-machine.git
 - Navigate to the project directory:
-bash Copy code cd random-quote-machine
+bash
+Copy code
+cd random-quote-machine
 - Install dependencies:
-bash Copy code npm install
+bash
+Copy code
+npm install
 - Start the development server:
-bash Copy code npm start
+bash
+Copy code
+npm start
 The app will be available at http://localhost:3000 in your browser.
 
 ## Usage 🎯
